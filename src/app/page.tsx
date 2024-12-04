@@ -1,5 +1,12 @@
+"use client";
+
 import React from "react";
+import TaskManagement from "./task";
 
 export default function Home() {
-  return <main>Hello world!</main>;
+  return (
+    <main>
+      <TaskManagement />
+    </main>
+  );
 }
